@@ -1,42 +1,249 @@
 services:
-  app:
-    build: .
-    container_name: bookstore-app-microservices
+  api-gateway:
+    build: ./api-gateway
+    container_name: api-gateway
     ports:
       - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      BOOK_SERVICE_URL: http://book-service:8082
+      CART_SERVICE_URL: http://cart-service:8083
+      ORDER_SERVICE_URL: http://order-service:8084
+      USER_SERVICE_URL: http://user-service:8081
+      PAYMENT_SERVICE_URL: http://payment-service:8085
     depends_on:
-      db:
+      - user-service
+      - book-service
+      - cart-service
+      - order-service
+      - payment-service
+    networks:
+      - bookstore-net
+
+  user-service:
+    build: ./user-service
+    container_name: user-service
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mariadb://user-db:3306/userdb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+    depends_on:
+      user-db:
+        condition: service_healthy
+    networks:
+      - bookstore-net
+
+  book-service:
+    build: ./book-service
+    container_name: book-service
+    ports:
+      - "8082:8082"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mariadb://book-db:3306/bookdb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+    depends_on:
+      book-db:
+        condition: service_healthy
+    networks:
+      - bookstore-net
+
+  cart-service:
+    build: ./cart-service
+    container_name: cart-service
+    ports:
+      - "8083:8083"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mariadb://cart-db:3306/cartdb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+    depends_on:
+      cart-db:
+        condition: service_healthy
+      book-service:
+        condition: service_started
+    networks:
+      - bookstore-net
+
+  order-service:
+    build: ./order-service
+    container_name: order-service
+    ports:
+      - "8084:8084"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mariadb://order-db:3306/orderdb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+    depends_on:
+      order-db:
+        condition: service_healthy
+      cart-service:
+        condition: service_started
+      payment-service:
+        condition: service_started
+      user-service:
+        condition: service_started
+    networks:
+      - bookstore-net
+
+  payment-service:
+    build: ./payment-service
+    container_name: payment-service
+    ports:
+      - "8085:8085"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: jdbc:mariadb://payment-db:3306/paymentdb
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+    depends_on:
+      payment-db:
+        condition: service_healthy
+    networks:
+      - bookstore-net
+
+  bookstore-app:
+    build: ../bookstoreb
+    ports:
+      - "8086:8080"
+    depends_on:
+      bookstore-db:
         condition: service_healthy
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mariadb://db:3306/bookstore
+      SPRING_DATASOURCE_URL: jdbc:mariadb://bookstore-db:3306/bookstore
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 1234
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
     networks:
-      - bookstore-network
+      - bookstore-net
 
-  db:
+  user-db:
+    image: mariadb:11
+    container_name: user-db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: userdb
+    ports:
+      - "3307:3306"
+    volumes:
+      - user-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - bookstore-net
+
+  book-db:
+    image: mariadb:11
+    container_name: book-db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: bookdb
+    ports:
+      - "3308:3306"
+    volumes:
+      - book-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - bookstore-net
+
+  cart-db:
+    image: mariadb:11
+    container_name: cart-db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: cartdb
+    ports:
+      - "3309:3306"
+    volumes:
+      - cart-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - bookstore-net
+
+  order-db:
+    image: mariadb:11
+    container_name: order-db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: orderdb
+    ports:
+      - "3310:3306"
+    volumes:
+      - order-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - bookstore-net
+
+  payment-db:
+    image: mariadb:11
+    container_name: payment-db
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: 1234
+      MARIADB_DATABASE: paymentdb
+    ports:
+      - "3311:3306"
+    volumes:
+      - payment-db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - bookstore-net
+
+  bookstore-db:
     image: mariadb:latest
-    container_name: bookstore-db-microservices
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: bookstore
     ports:
-      - "3308:3307" # Exposing on port 3308 to avoid conflict if local MariaDB is running on 3306
+      - "${BOOKSTORE_DB_PORT:-3313}:3306"
     volumes:
-      - db_data:/var/lib/mysql
+      - bookstore-db-data:/var/lib/mysql
     networks:
-      - bookstore-network
+      - bookstore-net
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 10s
       timeout: 5s
       retries: 5
 
-networks:
-  bookstore-network:
-    driver: bridge
-
 volumes:
-  db_data:
+  user-db-data:
+  book-db-data:
+  cart-db-data:
+  order-db-data:
+  payment-db-data:
+  bookstore-db-data:
+
+networks:
+  bookstore-net:
+    driver: bridge
