@@ -14,6 +14,13 @@ WORKDIR /app
 
 COPY --from=build /app/target/*.jar app.jar
 
+# OpenTelemetry Java agent
+COPY opentelemetry-javaagent.jar /otel/opentelemetry-javaagent.jar
+
 EXPOSE 8084
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENV OTEL_SERVICE_NAME=order-service
+ENV OTEL_TRACES_EXPORTER=otlp
+ENV OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4318
+
+ENTRYPOINT ["java", "-javaagent:/otel/opentelemetry-javaagent.jar", "-jar", "app.jar"]
