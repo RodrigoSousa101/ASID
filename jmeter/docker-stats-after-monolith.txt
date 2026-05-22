@@ -1,0 +1,14 @@
+﻿NAME                                                                                                  CPU %     MEM USAGE / LIMIT
+bookstore-app                                                                                         0.14%     228.7MiB / 15.44GiB
+bookstore-db                                                                                          0.01%     93.42MiB / 15.44GiB
+k8s_user-db_user-db-7775886d76-vc4n9_default_e6f2ef4b-dee7-4875-8c85-7ab95b44ad96_0                   0.01%     93.98MiB / 15.44GiB
+k8s_order-db_order-db-7f7c8d5fc9-q4956_default_c710f66f-4d02-4a8f-be93-3d52716baa78_0                 0.01%     94.73MiB / 15.44GiB
+k8s_book-db_book-db-5d86664ffd-h7gwv_default_af24f44b-c426-48b5-a724-a3bead972d71_0                   0.00%     96MiB / 15.44GiB
+k8s_cart-db_cart-db-7dc97d9c8c-zj9jf_default_fff32f05-ac6a-49ba-a194-89f2473b5788_0                   0.01%     94.53MiB / 15.44GiB
+k8s_book-service_book-service-7d99974dc-pswb7_default_d5c6fda6-ff22-4b17-ba5c-cc0c02f780a5_0          0.11%     544.1MiB / 15.44GiB
+k8s_api-gateway_api-gateway-5c6b874f67-qs8mr_default_718f3f64-7207-4129-bced-e55962c16f76_0           0.10%     411.8MiB / 15.44GiB
+k8s_cart-service_cart-service-68cc8f6c96-2mh4l_default_84db9f79-4634-4b29-8877-d3962fa1e077_0         0.14%     541.9MiB / 15.44GiB
+k8s_order-service_order-service-6b87b64dbb-vc2lj_default_ae8c02a0-2112-4424-a7d8-d98f7cb3e49a_0       0.11%     531.4MiB / 15.44GiB
+k8s_user-service_user-service-697f94fc4c-66pg7_default_abd56686-a654-4fb9-ac4d-884c39c4bef1_0         0.14%     518.8MiB / 15.44GiB
+k8s_jaeger_jaeger-764c695f88-tqr7d_default_ccc7419e-94b6-47fa-99eb-565c6cf868f3_0                     0.01%     20.32MiB / 15.44GiB
+k8s_payment-service_payment-service-5dd994469c-zk2r6_default_fc41a7f1-b92b-41a3-8ac4-0fa21a57e0a6_0   0.17%     439.8MiB / 15.44GiB
