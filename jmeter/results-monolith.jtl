@@ -1,401 +1,201 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1779446736035,239,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,233,0,21
-1779446736278,59,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,59,0,0
-1779446736338,7,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,7,0,0
-1779446736345,7,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,7,0,0
-1779446736352,7,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,7,0,0
-1779446736360,5,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446736366,8,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,8,0,0
-1779446736375,7,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,7,0,0
-1779446736382,8,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,8,0,0
-1779446736391,6,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446736397,9,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,9,0,0
-1779446736407,6,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446736413,7,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,7,0,0
-1779446736420,7,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,7,0,0
-1779446736427,7,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,7,0,0
-1779446736434,7,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,7,0,0
-1779446736441,5,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446736447,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446736451,5,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446736456,5,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446736949,6,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,6,0,0
-1779446736955,5,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446736960,6,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,6,0,0
-1779446736966,4,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446736971,4,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446736975,5,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446736980,5,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446736985,4,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446736990,4,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446736994,4,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446736999,5,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446737005,6,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446737011,6,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,6,0,0
-1779446737018,4,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446737023,6,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,6,0,0
-1779446737029,6,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446737035,6,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,6,0,0
-1779446737042,5,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446737048,5,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446737053,6,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446737946,7,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,7,0,1
-1779446737953,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446737956,5,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446737961,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446737965,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446737969,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446737973,3,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446737977,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446737980,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446737984,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446737987,3,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446737991,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446737995,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446737999,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446738002,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446738006,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446738009,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446738013,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446738017,3,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446738020,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446738948,6,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,6,0,0
-1779446738954,4,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446738958,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446738962,5,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446738968,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446738972,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446738976,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446738979,4,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446738983,5,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446738988,4,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446738992,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446738997,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446739001,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446739005,4,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446739010,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446739014,4,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446739018,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446739022,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446739025,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446739029,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446739946,6,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,6,0,1
-1779446739952,5,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446739957,5,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446739963,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446739967,5,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446739973,5,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446739978,5,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446739983,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446739987,5,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446739992,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446739996,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446740001,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446740006,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446740011,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446740015,5,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446740020,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446740024,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446740029,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446740033,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446740037,5,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446740947,6,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,6,0,0
-1779446740953,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446740957,4,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446740961,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446740965,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446740968,4,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446740972,4,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446740976,4,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446740980,4,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446740984,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446740987,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446740990,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446740994,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446740997,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446741000,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446741004,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446741007,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446741010,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446741013,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446741017,2,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446741948,9,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,9,0,2
-1779446741957,4,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446741961,4,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446741965,2,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446741968,2,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446741971,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446741974,4,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446741978,10,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,10,0,0
-1779446741989,4,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446741993,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446741996,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446742000,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446742003,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446742006,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446742009,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446742012,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446742015,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446742018,2,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446742021,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446742024,2,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446742948,67,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,67,0,0
-1779446743015,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743019,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743022,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743025,2,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446743028,2,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446743030,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743033,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743036,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743039,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743042,4,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743046,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743049,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743052,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743055,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743058,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743061,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743065,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743068,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743071,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743947,5,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446743952,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743956,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743959,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743962,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743966,2,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446743968,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743971,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743974,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743977,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743980,4,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446743985,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446743988,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446743991,6,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446743998,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446744002,2,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446744005,2,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446744008,2,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446744011,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446744014,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446744949,5,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446744955,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446744958,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446744961,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446744964,2,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446744967,2,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446744969,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446744972,2,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446744975,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446744978,2,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446744980,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446744983,6,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446744989,5,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446744994,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446744997,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446745000,2,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446745002,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446745005,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446745008,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446745011,2,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446749962,29,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,25,0,15
-1779446749999,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750004,5,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446750009,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750013,4,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750018,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750022,4,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750027,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750031,4,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750036,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750040,4,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750044,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750049,4,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750053,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750057,4,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750061,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750065,4,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750069,3,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446750073,3,Get all books,200,,Browse Books 1-1,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446750076,4,Get book by id,404,,Browse Books 1-1,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446750907,6,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,6,0,1
-1779446750913,3,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446750917,3,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446750921,3,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446750924,3,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446750927,3,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446750930,3,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446750933,3,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446750936,3,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446750939,2,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446750942,2,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446750944,3,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446750947,3,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446750951,2,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446750953,4,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446750957,3,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446750960,3,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446750963,2,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446750966,2,Get all books,200,,Browse Books 1-2,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446750969,2,Get book by id,404,,Browse Books 1-2,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446751905,7,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,7,0,1
-1779446751912,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446751916,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446751921,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446751926,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446751931,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446751935,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446751939,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446751943,3,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446751947,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446751950,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446751954,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446751958,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446751962,4,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446751966,5,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446751971,5,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446751976,4,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446751980,3,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446751983,3,Get all books,200,,Browse Books 1-3,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446751986,2,Get book by id,404,,Browse Books 1-3,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446752907,6,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,6,0,1
-1779446752913,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446752916,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446752919,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446752922,4,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446752926,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446752929,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446752932,2,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446752934,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446752937,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446752940,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446752943,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446752946,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446752949,3,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446752952,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446752956,2,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446752958,3,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446752961,2,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446752964,2,Get all books,200,,Browse Books 1-4,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446752967,2,Get book by id,404,,Browse Books 1-4,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446753905,6,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,6,0,1
-1779446753912,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446753916,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446753920,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446753923,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446753928,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446753932,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446753937,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446753940,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446753945,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446753948,4,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446753952,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446753955,3,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446753959,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446753963,3,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446753967,4,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446753971,3,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446753974,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446753978,3,Get all books,200,,Browse Books 1-5,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446753982,3,Get book by id,404,,Browse Books 1-5,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754904,5,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446754909,4,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446754913,4,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446754917,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754920,4,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446754924,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754927,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446754931,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754934,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446754937,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754941,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446754944,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754947,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446754950,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754953,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446754956,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754959,4,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446754963,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446754966,3,Get all books,200,,Browse Books 1-6,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446754970,3,Get book by id,404,,Browse Books 1-6,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446755904,7,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,7,0,0
-1779446755912,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446755916,4,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446755920,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446755923,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446755927,2,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446755930,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446755934,4,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446755939,4,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446755943,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446755946,4,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446755950,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446755953,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446755957,2,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446755960,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446755964,2,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446755966,4,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446755970,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446755973,3,Get all books,200,,Browse Books 1-7,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446755976,3,Get book by id,404,,Browse Books 1-7,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446756905,5,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446756911,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446756914,4,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446756918,4,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446756923,4,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446756927,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446756930,4,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446756934,4,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446756939,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446756942,4,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446756946,4,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446756950,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446756953,4,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446756957,4,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446756961,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446756965,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446756968,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446756972,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446756975,3,Get all books,200,,Browse Books 1-8,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446756979,3,Get book by id,404,,Browse Books 1-8,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446757904,5,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446757910,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446757914,4,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446757919,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446757923,4,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446757927,5,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,5,0,0
-1779446757932,5,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,5,0,0
-1779446757937,4,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446757941,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446757944,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446757948,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446757952,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446757956,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446757959,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446757962,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446757966,2,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446757968,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446757971,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446757974,3,Get all books,200,,Browse Books 1-9,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446757977,3,Get book by id,404,,Browse Books 1-9,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446758904,6,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,6,0,1
-1779446758910,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446758914,4,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446758918,6,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,6,0,0
-1779446758924,4,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,4,0,0
-1779446758929,4,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,4,0,0
-1779446758933,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446758937,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446758940,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446758944,2,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,2,0,0
-1779446758947,2,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,2,0,0
-1779446758950,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446758954,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446758958,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446758961,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446758964,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446758967,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446758970,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
-1779446758973,3,Get all books,200,,Browse Books 1-10,text,true,,433,150,1,1,http://localhost:8080/books,3,0,0
-1779446758976,3,Get book by id,404,,Browse Books 1-10,,false,,380,152,1,1,http://localhost:8080/books/1,3,0,0
+1779463503307,61,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,55,0,25
+1779463503378,16,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,15,0,0
+1779463503395,14,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,14,0,0
+1779463503410,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463503422,12,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463503434,11,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463503445,11,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463503456,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463503468,14,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,14,0,0
+1779463503482,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463503495,12,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463503508,11,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463503519,12,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463503532,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463503545,11,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463503557,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463503570,13,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463503584,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463503597,13,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463503611,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463504226,18,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,18,0,3
+1779463504244,12,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463504257,11,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463504269,12,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463504282,12,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463504295,12,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463504308,11,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463504320,11,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463504331,11,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463504343,13,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,13,0,0
+1779463504357,12,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463504369,12,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463504381,12,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463504393,11,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463504404,13,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463504417,13,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,13,0,0
+1779463504430,10,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463504440,11,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463504452,13,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463504465,10,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463505226,20,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,20,0,3
+1779463505246,11,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463505258,10,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463505269,12,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463505281,11,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463505292,11,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463505304,10,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463505315,11,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463505326,10,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463505337,10,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463505348,11,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463505359,12,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463505371,12,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463505383,15,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,15,0,0
+1779463505399,17,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,17,0,0
+1779463505416,20,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,20,0,0
+1779463505437,20,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,20,0,0
+1779463505457,15,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,15,0,0
+1779463505472,11,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463505484,10,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463506225,21,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,20,0,3
+1779463506246,12,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463506258,12,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463506270,11,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463506282,10,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463506293,10,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463506303,10,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463506314,10,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463506324,10,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463506334,9,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463506343,9,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463506353,8,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463506361,9,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463506370,9,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463506380,9,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463506390,10,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463506400,9,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463506409,9,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463506419,10,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463506429,9,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463507223,18,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,18,0,3
+1779463507242,9,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463507251,9,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463507261,9,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463507270,9,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463507279,9,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463507288,9,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463507298,9,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463507308,11,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463507319,11,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463507330,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463507340,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463507350,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463507360,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463507371,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463507382,9,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463507392,9,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463507402,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463507412,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463507422,11,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463508224,16,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,16,0,3
+1779463508241,8,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463508249,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463508258,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463508268,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463508277,9,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463508286,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463508295,9,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463508304,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463508314,11,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463508325,11,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463508336,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463508346,10,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463508356,9,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463508366,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463508375,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463508385,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463508395,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463508405,10,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463508415,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463509224,18,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,17,0,3
+1779463509242,9,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463509251,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463509261,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463509271,9,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463509280,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463509290,9,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463509301,12,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463509314,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463509324,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463509335,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463509346,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463509357,11,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463509368,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463509378,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463509389,9,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463509398,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463509408,9,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463509417,9,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463509427,8,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463510224,19,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,19,0,3
+1779463510243,12,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463510255,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463510265,10,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463510275,10,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463510285,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463510295,8,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,8,0,0
+1779463510303,13,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,13,0,0
+1779463510316,11,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463510327,8,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463510336,8,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,8,0,0
+1779463510344,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463510353,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463510363,8,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463510371,10,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463510381,11,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463510392,11,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463510404,10,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463510415,10,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463510425,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463511225,18,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,18,0,3
+1779463511244,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463511254,10,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463511265,11,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463511276,10,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463511286,11,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463511297,11,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463511308,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463511318,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463511328,8,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463511337,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463511346,9,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463511356,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463511366,9,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463511375,11,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463511386,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463511396,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463511406,9,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463511415,10,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463511425,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463512224,16,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,16,0,3
+1779463512241,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463512250,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463512260,13,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,13,0,0
+1779463512274,16,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,16,0,0
+1779463512291,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463512300,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463512310,8,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463512318,8,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,8,0,0
+1779463512326,8,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463512334,8,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,8,0,0
+1779463512343,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463512352,10,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463512362,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463512372,10,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463512382,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463512391,10,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463512401,10,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463512411,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463512421,8,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0

@@ -1,0 +1,201 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1779463394382,759,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,755,0,20
+1779463395144,53,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,53,0,0
+1779463395198,15,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,15,0,0
+1779463395213,14,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,14,0,0
+1779463395228,14,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,14,0,0
+1779463395242,14,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,14,0,0
+1779463395256,13,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463395269,12,Get book by id,404,,Browse Books 1-1,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463395282,12,Get all books,200,,Browse Books 1-1,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463395295,14,Get book by id,404,,Browse Books 1-1,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,14,0,0
+1779463395309,16,Get all books,200,,Browse Books 1-1,text,true,,263,161,2,2,http://host.docker.internal:8080/books,15,0,0
+1779463395304,23,Get all books,200,,Browse Books 1-2,text,true,,263,161,2,2,http://host.docker.internal:8080/books,23,0,2
+1779463395325,15,Get book by id,404,,Browse Books 1-1,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,15,0,0
+1779463395328,14,Get book by id,404,,Browse Books 1-2,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,13,0,0
+1779463395340,16,Get all books,200,,Browse Books 1-1,text,true,,263,161,2,2,http://host.docker.internal:8080/books,16,0,0
+1779463395342,14,Get all books,200,,Browse Books 1-2,text,true,,263,161,2,2,http://host.docker.internal:8080/books,14,0,0
+1779463395356,14,Get book by id,404,,Browse Books 1-2,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,13,0,0
+1779463395356,14,Get book by id,404,,Browse Books 1-1,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,13,0,0
+1779463395370,16,Get all books,200,,Browse Books 1-2,text,true,,263,161,2,2,http://host.docker.internal:8080/books,16,0,0
+1779463395370,16,Get all books,200,,Browse Books 1-1,text,true,,263,161,2,2,http://host.docker.internal:8080/books,16,0,0
+1779463395387,15,Get book by id,404,,Browse Books 1-1,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,15,0,0
+1779463395386,16,Get book by id,404,,Browse Books 1-2,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,16,0,0
+1779463395403,15,Get all books,200,,Browse Books 1-1,text,true,,263,161,2,2,http://host.docker.internal:8080/books,15,0,0
+1779463395403,17,Get all books,200,,Browse Books 1-2,text,true,,263,161,2,2,http://host.docker.internal:8080/books,17,0,0
+1779463395420,14,Get book by id,404,,Browse Books 1-2,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,14,0,0
+1779463395419,15,Get book by id,404,,Browse Books 1-1,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,15,0,0
+1779463395435,18,Get all books,200,,Browse Books 1-2,text,true,,263,161,2,2,http://host.docker.internal:8080/books,18,0,0
+1779463395435,18,Get all books,200,,Browse Books 1-1,text,true,,263,161,2,2,http://host.docker.internal:8080/books,18,0,0
+1779463395453,15,Get book by id,404,,Browse Books 1-2,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,15,0,0
+1779463395453,16,Get book by id,404,,Browse Books 1-1,text,false,,353,163,2,2,http://host.docker.internal:8080/books/1,15,0,0
+1779463395469,13,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463395483,14,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,14,0,0
+1779463395498,19,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,19,0,0
+1779463395517,19,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,19,0,0
+1779463395536,15,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,15,0,0
+1779463395552,14,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,14,0,0
+1779463395566,15,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,15,0,0
+1779463395581,12,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463395593,12,Get all books,200,,Browse Books 1-2,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463395605,12,Get book by id,404,,Browse Books 1-2,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463396303,21,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,20,0,3
+1779463396324,14,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,14,0,0
+1779463396338,15,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,15,0,0
+1779463396354,11,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463396365,14,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,14,0,0
+1779463396379,11,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463396390,12,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463396402,10,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463396413,11,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463396424,14,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,14,0,0
+1779463396438,18,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,18,0,0
+1779463396457,18,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,18,0,0
+1779463396475,14,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,14,0,0
+1779463396490,10,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463396501,11,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463396512,12,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463396524,11,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463396535,11,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463396546,11,Get all books,200,,Browse Books 1-3,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463396557,12,Get book by id,404,,Browse Books 1-3,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463397301,19,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,19,0,2
+1779463397320,11,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463397331,11,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463397342,17,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,16,0,0
+1779463397359,14,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,14,0,0
+1779463397375,11,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463397387,11,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463397398,11,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463397410,10,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463397420,9,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463397430,9,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463397440,10,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463397450,10,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463397460,12,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463397472,10,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463397483,10,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463397493,11,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463397505,11,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463397517,13,Get all books,200,,Browse Books 1-4,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463397531,11,Get book by id,404,,Browse Books 1-4,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463398302,18,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,18,0,3
+1779463398321,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463398332,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463398342,12,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463398354,11,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463398365,16,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,16,0,0
+1779463398382,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463398392,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463398402,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463398412,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463398422,11,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463398433,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463398443,10,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463398454,11,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463398465,11,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463398477,10,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463398487,11,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463398498,13,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,13,0,0
+1779463398511,11,Get all books,200,,Browse Books 1-5,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463398522,11,Get book by id,404,,Browse Books 1-5,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463399304,17,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,17,0,2
+1779463399322,11,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463399333,12,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463399345,11,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463399357,11,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,11,0,0
+1779463399369,9,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463399379,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463399388,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463399398,9,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463399407,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463399417,10,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463399427,9,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463399436,10,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463399447,9,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463399457,10,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463399467,12,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463399479,11,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463399490,10,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463399500,13,Get all books,200,,Browse Books 1-6,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463399514,18,Get book by id,404,,Browse Books 1-6,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,17,0,0
+1779463400304,18,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,18,0,3
+1779463400322,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463400333,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463400344,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463400354,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463400364,11,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463400375,12,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463400388,28,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,28,0,0
+1779463400417,18,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,17,0,0
+1779463400435,12,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,12,0,0
+1779463400447,9,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463400457,9,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463400466,9,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463400475,8,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463400484,8,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,8,0,0
+1779463400493,9,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463400502,10,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463400512,9,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463400521,9,Get all books,200,,Browse Books 1-7,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463400531,10,Get book by id,404,,Browse Books 1-7,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463401304,19,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,19,0,2
+1779463401324,10,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463401334,10,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463401344,10,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463401354,10,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463401364,10,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463401374,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463401384,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463401393,13,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,13,0,0
+1779463401406,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463401415,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463401424,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463401433,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463401442,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463401451,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463401460,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463401470,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463401480,10,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463401490,9,Get all books,200,,Browse Books 1-8,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463401500,9,Get book by id,404,,Browse Books 1-8,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463402303,17,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,17,0,2
+1779463402320,9,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463402330,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463402340,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463402351,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463402361,9,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463402371,10,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463402381,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463402391,10,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463402402,9,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463402412,10,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463402423,11,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463402434,10,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463402444,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463402454,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463402463,9,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463402472,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463402482,8,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463402490,9,Get all books,200,,Browse Books 1-9,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463402500,10,Get book by id,404,,Browse Books 1-9,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463403303,21,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,21,0,6
+1779463403324,10,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
+1779463403334,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463403343,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463403352,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463403362,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463403371,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463403380,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463403390,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463403399,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463403409,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463403418,11,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,11,0,0
+1779463403430,12,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,12,0,0
+1779463403443,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463403452,8,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,8,0,0
+1779463403461,8,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,8,0,0
+1779463403469,10,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,10,0,0
+1779463403479,9,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,9,0,0
+1779463403488,9,Get all books,200,,Browse Books 1-10,text,true,,263,161,1,1,http://host.docker.internal:8080/books,9,0,0
+1779463403497,10,Get book by id,404,,Browse Books 1-10,text,false,,353,163,1,1,http://host.docker.internal:8080/books/1,10,0,0
